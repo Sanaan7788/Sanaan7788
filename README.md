@@ -24,7 +24,7 @@ Passionate about building scalable applications, AI-powered systems, and modern 
 
 <p align="center">
 
-<a href="https://linkedin.com/in/zahiruddin-sanaan-syed">
+<a href="[https://linkedin.com/in/zahiruddin-sanaan-syed](https://www.linkedin.com/in/sanaan7788/)">
 <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin">
 </a>
 
