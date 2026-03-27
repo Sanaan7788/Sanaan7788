@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Zahiruddin%20Sanaan%20Syed&fontSize=42&fontColor=ffffff)
 
 <h1 align="center">Hi 👋 I'm Zahiruddin Sanaan Syed</h1>
-<h3 align="center">Software Engineer | AI & Full Stack Developer | AWS Certified</h3>
+<h3 align="center">Software Engineer | AI & Full Stack Developer</h3>
 
 <p align="center">
 Passionate about building scalable applications, AI-powered systems, and modern web platforms.
