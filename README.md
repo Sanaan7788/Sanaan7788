@@ -1,204 +1,206 @@
 <div align="center">
 
-# Zahiruddin Sanaan Syed
+# 👋 Zahiruddin Sanaan Syed
 
-**Software Engineer · Full Stack · AI Systems**
+### Software Engineer · Full Stack · AI Systems
 
-Houston, TX &nbsp;|&nbsp; [linkedin.com/in/sanaan7788](https://www.linkedin.com/in/sanaan7788/) &nbsp;|&nbsp; [sanaan7788@gmail.com](mailto:sanaan7788@gmail.com) &nbsp;|&nbsp; [github.com/Sanaan7788](https://github.com/Sanaan7788)
+🌍 Houston, TX · [LinkedIn](https://www.linkedin.com/in/sanaan7788/) · [sanaan7788@gmail.com](mailto:sanaan7788@gmail.com) · [GitHub](https://github.com/Sanaan7788)
+
+☁️ AWS Certified · 🎓 MS Computer Science — Lamar University
 
 </div>
 
 ---
 
-## About
+## 👨‍💻 About Me
 
-Software Engineer with 4+ years building production systems across healthcare, AI, and web domains. Currently engineering a HIPAA-compliant EHR platform (NestJS · Next.js · MariaDB) with a focus on complex data pipelines, authorization workflows, and PDF generation at scale. AWS Certified. MS Computer Science — Lamar University.
+Software Engineer with 4+ years building production systems across healthcare, AI, and web domains. Currently engineering a HIPAA-compliant EHR platform (NestJS · Next.js · MariaDB) with a focus on complex data pipelines, authorization workflows, and PDF generation at scale.
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-**Languages** — TypeScript · JavaScript · Python · Java · C++ · Dart · Go
+**Languages** — TypeScript · JavaScript · Python · Go · Java · C++ · Dart
 
 **Frontend** — React · Next.js · Flutter · Vite · Tailwind CSS · Three.js · Framer Motion
 
-**Backend** — NestJS · Node.js · Express · TypeORM · Drizzle ORM · REST
+**Backend** — NestJS · Node.js · Express · TypeORM · Drizzle ORM
 
-**Databases** — MariaDB · PostgreSQL · MySQL · MongoDB · Neon
+**Databases** — MariaDB · PostgreSQL · MySQL · MongoDB · Redis · Neon
 
-**AI / ML** — OpenAI API · Anthropic Claude · Google Gemini · LangChain · Ollama · DeepSeek · Groq API · Tavily
+**AI / ML** — OpenAI · Anthropic Claude · Google Gemini · LangChain · Ollama · DeepSeek · Groq · Tavily
 
-**Scraping / Automation** — Playwright · Chromium · Stealth Plugin
+**Automation** — Playwright · Chromium · BullMQ
 
-**Infrastructure** — AWS · Docker · Vercel · Render · GitHub Actions · BullMQ · Redis
-
----
-
-## Projects
-
-### [local-business-finder](https://github.com/Sanaan7788/local-business-finder)
-End-to-end lead generation and CRM system for finding offline businesses and building their web presence. Scrapes Google Maps via Playwright (Chromium) using a pre-collect pattern to avoid DOM re-render issues. Deduplicates across sessions by phone and name/address indexes. LLM layer generates SEO keywords, business summaries, and full single-file HTML websites — then pushes to GitHub and deploys to Vercel via API. CRM pipeline tracks leads from discovery through close with a 0–100 scoring model. Supports batch mode across 50+ category searches per area.
-
-`TypeScript` `Node.js` `Express` `React 18` `Vite` `Tailwind CSS` `TanStack Query` `Playwright` `PostgreSQL` `Drizzle ORM` `Neon` `Zod` `Winston` `p-queue` `Octokit SDK` `Vercel API` `DeepSeek` `Claude` `OpenAI`
+**Infrastructure** — AWS · Docker · Vercel · Render · GitHub Actions
 
 ---
 
-### [company-intelligence](https://github.com/Sanaan7788/company-intelligence)
-Analyst-grade company research tool for job hunters. AI research agent generates structured intelligence dossiers — recent news, tech problems, and market opportunities — sourced from Reddit, LinkedIn, HackerNews, blogs, and job postings. Features company discovery by location/zip, bulk import, background task tracker, shortlist, tags, PDF export, and a research cache (if two companies share a website, research is cloned instantly). Pluggable LLM backends (DeepSeek V3 via NVIDIA NIM, Claude, OpenAI, Ollama). Anthropic uses native web_search tool; others inject context via Tavily or SerpAPI. npm workspaces monorepo with a shared TypeScript types package. Deployable to Render via `render.yaml`.
+## 🚀 Projects
+
+### 🗺️ [local-business-finder](https://github.com/Sanaan7788/local-business-finder)
+> *Find offline businesses on Google Maps, generate their websites with AI, deploy them live, manage the pipeline as a CRM*
+
+End-to-end lead generation and CRM system. Scrapes Google Maps via Playwright using a pre-collect pattern to avoid DOM re-render issues. Deduplicates across sessions by phone and name/address indexes. LLM layer generates SEO keywords, business summaries, and full single-file HTML websites — then pushes to GitHub and deploys to Vercel via API. CRM pipeline tracks leads from discovery through close with a 0–100 scoring model. Supports batch mode across 50+ category searches per area.
+
+`TypeScript` `Node.js` `Express` `React 18` `Vite` `Tailwind CSS` `TanStack Query` `Playwright` `PostgreSQL` `Drizzle ORM` `Neon` `Zod` `Winston` `p-queue` `Octokit SDK` `DeepSeek` `Claude` `OpenAI` `Vercel API`
+
+---
+
+### 🧠 [company-intelligence](https://github.com/Sanaan7788/company-intelligence)
+> *Analyst-grade company research tool — AI dossiers on any company in seconds*
+
+AI research agent generates structured intelligence dossiers — recent news, tech problems, and market opportunities — sourced from Reddit, LinkedIn, HackerNews, and blogs. Features company discovery by location/zip, bulk import, background task tracker, shortlist, tags, PDF export, and a research cache. Pluggable LLM backends (DeepSeek V3 via NVIDIA NIM, Claude, OpenAI, Ollama). npm workspaces monorepo with a shared TypeScript types package. Deployable to Render.
 
 `TypeScript` `React 18` `Vite` `Node.js` `Express` `PostgreSQL` `Neon` `npm workspaces` `DeepSeek` `NVIDIA NIM` `Claude` `OpenAI` `Ollama` `Tavily` `SerpAPI` `Render`
 
 ---
 
-### [autoapply](https://github.com/Sanaan7788/autoapply)
-Automated job application system built as a full-stack monorepo. NestJS backend handles job discovery via Playwright + stealth plugin on LinkedIn. LLM layer (Ollama — mistral:7b for JSON extraction, qwen2.5:14b for writing) customizes resumes per job, rewrites bullet points against ATS keywords, and generates cover letters. Resume export to DOCX and PDF. BullMQ + Redis handles scheduled scraping. Kanban-style application tracker. Roadmap includes multi-board scraping (Indeed, Glassdoor), Gmail API monitoring, skills gap analysis, and Stripe-based monetization.
+### 🤖 [autoapply](https://github.com/Sanaan7788/autoapply)
+> *Automated job application OS — local LLMs, ATS resume customization, Kanban tracker*
+
+Full-stack monorepo. NestJS backend handles job discovery via Playwright + stealth plugin on LinkedIn. Local LLMs via Ollama (mistral:7b for extraction, qwen2.5:14b for writing) customize resumes per job, rewrite bullet points against ATS keywords, and generate cover letters. Resume export to DOCX and PDF. BullMQ + Redis for scheduled scraping. Kanban-style application tracker.
 
 `TypeScript` `NestJS` `TypeORM` `React` `Vite` `Tailwind CSS` `PostgreSQL` `Docker` `Ollama` `Playwright` `BullMQ` `Redis` `Gmail API` `Stripe`
 
 ---
 
-### [indian-stocks-halal](https://github.com/Sanaan7788/indian-stocks-halal)
-Shariah-compliance screener for Nifty 50 equities. Processes stock data from CSV (nifty50_final.csv), runs each company through an LLM-powered halal evaluation (halal-bot.ts), and outputs a structured halal report. Single-file HTML frontend. Designed for swing traders screening pharma, solar, and minerals sectors.
+### 📈 [indian-stocks-halal](https://github.com/Sanaan7788/indian-stocks-halal)
+> *Shariah-compliance screener for Nifty 50 equities*
+
+Processes Nifty 50 stock data from CSV, runs each company through an LLM-powered halal evaluation, and outputs a structured halal report. Single-file HTML frontend. Built for swing traders screening pharma, solar, and minerals sectors.
 
 `TypeScript` `HTML` `Groq API` `CSV`
 
 ---
 
-### [tppes](https://github.com/Sanaan7788/tppes)
-Production client website for Three Phase Power Engineering Services, a Houston-based engineering firm. Animated UI with Framer Motion. Automated contact form via EmailJS. Fully responsive layout. Actively used by the client.
+### ⚡ [tppes](https://github.com/Sanaan7788/tppes)
+> *Production website for Three Phase Power Engineering Services, Houston*
+
+Animated UI with Framer Motion, automated contact form via EmailJS. Fully responsive. Actively used by the client.
 
 `React` `Tailwind CSS` `Framer Motion` `EmailJS` `Vite`
 
 ---
 
-### [cillies-cakes](https://github.com/Sanaan7788/cillies-cakes)
-3D interactive landing page for Cillie's Cakes & Snacks, a Houston-based bakery. Built with Three.js and WebGL shaders. Features an animated 3D scene with a light/blush pink theme and native anchor-link navigation.
+### 🎂 [cillies-cakes](https://github.com/Sanaan7788/cillies-cakes)
+> *3D interactive landing page for a Houston bakery — Three.js and WebGL shaders*
+
+Animated 3D scene, blush pink theme, native anchor-link navigation.
 
 `Three.js` `WebGL` `JavaScript` `HTML` `CSS`
 
 ---
 
-### [airbnb-clone](https://github.com/Sanaan7788/airbnb-clone)
-Early-stage Airbnb clone — backend scaffolded in JavaScript. Property listing and booking flow architecture in progress.
+### 🏠 [airbnb-clone](https://github.com/Sanaan7788/airbnb-clone)
+> *Airbnb clone — backend scaffolded, property listing and booking flow in progress*
 
 `JavaScript` `Node.js`
 
 ---
 
-### [Jewellery-website1](https://github.com/Sanaan7788/Jewellery-website1)
-E-commerce style landing page for a jewellery brand. Responsive product showcase with modern UI layout.
+### 💍 [Jewellery-website1](https://github.com/Sanaan7788/Jewellery-website1)
+> *E-commerce style landing page for a jewellery brand*
 
 `React` `Tailwind CSS` `Vite`
 
 ---
 
-### [golden-rock](https://github.com/Sanaan7788/golden-rock)
-Client website for Golden Rock, deployed live on Vercel. Built with React and Tailwind CSS.
+### 🪨 [golden-rock](https://github.com/Sanaan7788/golden-rock) · [Live ↗](https://golden-rock.vercel.app)
+> *Client website — deployed live on Vercel*
 
-`React` `JavaScript` `Tailwind CSS` `Vite` `Vercel`
-
----
-
-### [unitec-website](https://github.com/Sanaan7788/unitec-website)
-Corporate website for Uni-Tec Trade Inc., a Houston-based industrial supply company. React + Vite + Tailwind CSS stack.
-
-`React` `JavaScript` `Tailwind CSS` `Vite`
+`React` `Tailwind CSS` `Vite` `Vercel`
 
 ---
 
-### [tx-islamic-society](https://github.com/Sanaan7788/tx-islamic-society)
-Mosque website for a Texas Islamic Society chapter. Community-facing site with prayer times, events, and contact info. Deployed live on Vercel.
+### 🏭 [unitec-website](https://github.com/Sanaan7788/unitec-website)
+> *Corporate website for Uni-Tec Trade Inc., Houston industrial supply*
 
-`React` `JavaScript` `Tailwind CSS` `Vercel`
+`React` `Tailwind CSS` `Vite`
 
 ---
 
-### [sample-business-websites](https://github.com/Sanaan7788/sample-business-websites)
-Collection of static HTML business website templates used as client demos and AI-generated site output samples. Includes iterations of the Cillie's Cakes site. Deployed via GitHub Actions.
+### 🕌 [tx-islamic-society](https://github.com/Sanaan7788/tx-islamic-society) · [Live ↗](https://tx-islamic-society.vercel.app)
+> *Mosque website — prayer times, events, contact info*
+
+`React` `Tailwind CSS` `Vercel`
+
+---
+
+### 🌐 [sample-business-websites](https://github.com/Sanaan7788/sample-business-websites)
+> *Static HTML business website templates — client demos and AI-generated site samples*
 
 `HTML` `TypeScript` `CSS` `GitHub Actions`
 
 ---
 
-### [first-llm](https://github.com/Sanaan7788/first-llm)
-First exploration of LLM API integrations — separate Python wrappers for OpenAI GPT (gpt_wrapper.py) and Google Gemini (gemini_wrapper.py), unified under a Streamlit interface (home.py). Starting point for understanding multi-provider AI abstraction patterns.
+### 🔬 [first-llm](https://github.com/Sanaan7788/first-llm)
+> *First LLM API explorations — separate GPT and Gemini wrappers unified in a Streamlit UI*
 
 `Python` `OpenAI API` `Google Gemini API` `Streamlit`
 
 ---
 
-### [ai-pdf-summarizer](https://github.com/Sanaan7788/ai-pdf-summarizer)
-PDF Q&A system using LangChain and Streamlit. Processes documents and answers natural language questions against their content.
+### 📄 [ai-pdf-summarizer](https://github.com/Sanaan7788/ai-pdf-summarizer)
+> *PDF Q&A system — ask questions against any document*
 
 `Python` `LangChain` `Streamlit`
 
 ---
 
-### [tic-tac-toe](https://github.com/Sanaan7788/tic-tac-toe)
-Browser-based Tic-Tac-Toe game built with React and Vite. Game state management and win detection logic.
+### 🎮 [tic-tac-toe](https://github.com/Sanaan7788/tic-tac-toe)
+> *Browser-based Tic-Tac-Toe with game state management and win detection*
 
 `React` `JavaScript` `Vite` `CSS`
 
 ---
 
-### [Personal-Budget-Manager-master](https://github.com/Sanaan7788/Personal-Budget-Manager-master)
-Personal finance tracker built in Go with a proper MVC architecture — config, controllers, models, services, and utils layers. Containerized with Docker Compose. Built to explore Go's type system and web server patterns outside the JS ecosystem.
+### 💰 [Personal-Budget-Manager-master](https://github.com/Sanaan7788/Personal-Budget-Manager-master)
+> *Personal finance tracker in Go — MVC architecture, containerized with Docker Compose*
 
-`Go` `Docker` `Docker Compose` `MVC`
+`Go` `Docker` `Docker Compose`
 
 ---
 
-### [todolist](https://github.com/Sanaan7788/todolist)
-Cross-platform to-do list app built with Flutter and Dart. Targets Android, iOS, web, desktop (Linux, macOS, Windows) from a single codebase.
+### 📱 [todolist](https://github.com/Sanaan7788/todolist)
+> *Cross-platform to-do app in Flutter — Android, iOS, web, and desktop from one codebase*
 
 `Flutter` `Dart`
 
 ---
 
-### [Competitive-Programming](https://github.com/Sanaan7788/Competitive-Programming)
-Archive of competitive programming solutions. ICPC South Central USA Region participant. HackerRank certified in Java and Problem Solving.
+### 🏆 [Competitive-Programming](https://github.com/Sanaan7788/Competitive-Programming)
+> *ICPC South Central USA Region · HackerRank certified · DP, graphs, greedy*
 
 `C++` `Algorithms` `Data Structures`
 
 ---
 
-## Open Source Contributions
+## 🤝 Open Source Contributions
 
 | Repository | Description |
 |---|---|
-| [PlaidwareSolutions/fixorata](https://github.com/PlaidwareSolutions/fixorata) | Business management platform |
-| [plaidware-solutions/grantoptima](https://github.com/plaidware-solutions/grantoptima) | Grant optimization tool |
-| [kfnawaz/escapelify](https://github.com/kfnawaz/escapelify) | Escape room booking app |
-| [kfnawaz/grantoptima](https://github.com/kfnawaz/grantoptima) | Grant management system |
-| [kfnawaz/crwn-clothing](https://github.com/kfnawaz/crwn-clothing) | E-commerce clothing app |
-| [kfnawaz/imessage-clone](https://github.com/kfnawaz/imessage-clone) | Real-time messaging clone |
+| [PlaidwareSolutions/fixorata](https://github.com/PlaidwareSolutions/fixorata) | 🛠️ Business management platform |
+| [plaidware-solutions/grantoptima](https://github.com/plaidware-solutions/grantoptima) | 📋 Grant optimization tool |
+| [kfnawaz/escapelify](https://github.com/kfnawaz/escapelify) | 🔐 Escape room booking app |
+| [kfnawaz/grantoptima](https://github.com/kfnawaz/grantoptima) | 📊 Grant management system |
+| [kfnawaz/crwn-clothing](https://github.com/kfnawaz/crwn-clothing) | 👕 E-commerce clothing app |
+| [kfnawaz/imessage-clone](https://github.com/kfnawaz/imessage-clone) | 💬 Real-time messaging clone |
 
 ---
 
-## Achievements
+## 🏅 Achievements
 
 | | |
 |---|---|
 | ☁️ | AWS Certified Cloud Practitioner |
 | 🏆 | ICPC South Central USA Region Participant |
-| 📈 | Ranked 644 / 12,000+ — Newton Coding Challenge |
+| 📈 | Ranked **644 / 12,000+** — Newton Coding Challenge |
 | 🥈 | 2nd Prize — Best Engineering Project |
 | ✅ | HackerRank Certified — Java & Problem Solving |
 
 ---
 
-## GitHub Stats
-
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Sanaan7788&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanaan7788&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-
-</div>
-
----
-
-<div align="center">
-<sub>Most production work lives on a private org repo. This account reflects personal and open-source projects.</sub>
+<sub>⚙️ Most production work lives on a private org repo. This account reflects personal and open-source projects.</sub>
 </div>
