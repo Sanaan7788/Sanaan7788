@@ -176,7 +176,7 @@ Animated 3D scene, blush pink theme, native anchor-link navigation.
 
 ---
 
-## 🤝 Open Source Contributions
+## 🤝 Other Contributions
 
 | Repository | Description |
 |---|---|
