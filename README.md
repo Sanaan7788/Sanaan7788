@@ -6,7 +6,7 @@
 
 🌍 Houston, TX · [LinkedIn](https://www.linkedin.com/in/sanaan7788/) · [sanaan7788@gmail.com](mailto:sanaan7788@gmail.com) · [GitHub](https://github.com/Sanaan7788)
 
-☁️ AWS Certified · 🎓 MS Computer Science — Lamar University
+· 🎓 MS Computer Science — Lamar University
 
 </div>
 
